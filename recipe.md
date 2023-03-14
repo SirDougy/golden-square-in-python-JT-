@@ -58,7 +58,7 @@ Given empty string
 raises an error
 """
 estimate_reading_time('') 
-# Raises error: 'ERROR  - no text entered'
+# Raises error: 'ERROR - no text entered'
 
 200 word SAMPLE TEXT:
 
