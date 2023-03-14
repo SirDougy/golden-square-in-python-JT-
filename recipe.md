@@ -86,6 +86,7 @@ ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN
 ```
 
 _Encode each example as a test. You can add to the above list as you go._
+```
 
 ## 4. Implement the Behaviour
 
