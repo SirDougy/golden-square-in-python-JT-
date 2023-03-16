@@ -100,6 +100,7 @@ tracker.add("walk dog")
 tracker_mark_complete(2) # raises error "no such task exists"
 tracker.list_incomplete()    # => ["walk dog"]
 
+```
 
 ## 4. Implement the Behaviour
 
