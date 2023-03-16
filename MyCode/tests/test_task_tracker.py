@@ -26,7 +26,7 @@ def test_add_multiple_tasks():
     tracker.add("walk dog")
     tracker.add("feed cat")
     tracker.add("wash laundry")
-    tracker.list_incomplete() == [
+    assert tracker.list_incomplete() == [
         "walk dog", "feed cat", "wash laundry"]
 
 '''
