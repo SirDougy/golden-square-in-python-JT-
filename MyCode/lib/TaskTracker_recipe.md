@@ -16,8 +16,11 @@ _Include the initializer, public properties, and public methods with all paramet
 ```python
 
 class TaskTracker():
-
+     def __init__(self):
+        self._tasks = []
+        
     def add(self, task):
+        
         # Parameters:
         #   task: string representing a task
         pass
