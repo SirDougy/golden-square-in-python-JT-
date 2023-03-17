@@ -1,3 +1,5 @@
+from lib.track import Track
+
 class MusicLibrary:
     # Public properties:
     #   tracks: a list of strings representing tracks
