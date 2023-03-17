@@ -19,16 +19,20 @@ def test_remove_every_vowel_at_once_dud_forced():
     remover = VowelRemoverDud("aeiou")
     result_no_vowels = remover.remove_vowels()
     assert result_no_vowels == "eo"
+    # FORCED - test fails when using expected output (SEE ABOVE)
+    # code does not account for consecutive vowels
 
 # def test_remove_consecutive_vowels_dud():
 #     remover = VowelRemoverDud("Our Glorious Leader Pol Pot is in the pool")
 #     result_no_vowels = remover.remove_vowels()
 #     assert result_no_vowels == "r Glrs Ldr Pl Pt s n th pl"
 
-def test_remove_consecutive_vowels_dud_forced():
+def test_remove_consecutive_vowels_dud_forced(): 
     remover = VowelRemoverDud("Our Glorious Leader Pol Pot is in the pool")
     result_no_vowels = remover.remove_vowels()
     assert result_no_vowels == "ur Glros Ladr Pl Pt s n th pol"
+    # FORCED - test fails when using expected output (SEE ABOVE)
+    # code does not account for consecutive vowels
 
 ##########################################################################################    
 
